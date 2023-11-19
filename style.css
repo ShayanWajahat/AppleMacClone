@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500&family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+.header{
+    background-color: rgb(236, 236, 236);
+    height: 45px;
+    width: 100%;
+}
+.navbar{
+    font-size: 13px;
+    position: absolute;
+    top: 16px;
+    left: 420px;
+    word-spacing: 20px;
+}
+.nava{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+.nava:hover{
+    text-decoration: underline;
+}
+.mac{
+    position: absolute;
+    color: rgb(34, 34, 34);
+    font-size: 80px;
+    font-family: "Roboto";
+    font-weight: 590;
+    letter-spacing: -2px;
+    margin-left: 105px;
+    margin-top: 75px;
+}
+.ext-right{
+    float: right;
+    margin-right: 105px;
+    margin-top: 95px;
+}
+.h1er{
+    color: rgb(34, 34, 34);
+    font-family: "Roboto";
+    font-weight: 590;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+.macvid{
+    position: absolute;
+    height: 1042.55px;
+    width: 1390px;
+    border-radius: 50px;
+    top: 220px;
+    left: 105px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.knowmac{
+    position: absolute;
+    color: rgb(34, 34, 34);
+    font-size: 55px;
+    font-family: "Roboto";
+    font-weight: 590;
+    letter-spacing: -2px;
+    margin-left: 105px;
+    top: 1380px;
+}
+.box1{
+    position: absolute;
+    background: url(./img/hello.png);
+    height: 695.05px;
+    width: 443.3px;
+    border-radius: 40px;
+    background-size: cover;
+    min-height: 100vh;
+    top: 1490px;
+    left: 105px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.box1:hover{
+    transform: scale(1.05);
+}
+.box2{
+    position: absolute;
+    background: url(./img/workingonmac.png);
+    height: 695.05px;
+    width: 443.3px;
+    border-radius: 40px;
+    background-size: cover;
+    min-height: 100vh;
+    top: 1490px;
+    left: 578.3px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.box2:hover{
+    transform: scale(1.05);
+}
+.box3{
+    position: absolute;
+    background: url(./img/dreamteam.png);
+    height: 695.05px;
+    width: 443.3px;
+    border-radius: 40px;
+    background-size: cover;
+    min-height: 100vh;
+    top: 1490px;
+    left: 1051.6px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.box3:hover{
+    transform: scale(1.05);
+}
+.getstart{
+    position: absolute;
+    color: white;
+    font-weight: 550;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    top: 25px;
+    left: 35px;
+}
+.easy{
+    position: absolute;
+    color: white;
+    font-weight: 550;
+    letter-spacing: 0.8px;
+    font-size: 28px;
+    top: 50px;
+    left: 35px;
+}
+.getstartb{
+    position: absolute;
+    color: rgb(34, 34, 34);
+    font-weight: 550;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    top: 25px;
+    left: 35px;
+}
+.easyb{
+    position: absolute;
+    color: rgb(34, 34, 34);
+    font-weight: 550;
+    letter-spacing: 0.8px;
+    font-size: 28px;
+    top: 50px;
+    left: 35px;
+}
+.plus{
+    position: absolute;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    top: 730px;
+    left: 373.3px;
+    padding-left: 13.5px;
+    padding-top: 5.5px;
+    cursor: pointer;
+}
+.explore{
+    position: absolute;
+    top: 2600px;
+    left: 105px;
+    color: rgb(34, 34, 34);
+    font-size: 55px;
+    font-family: "Roboto";
+    font-weight: 590;
+    letter-spacing: -2px;
+}
+.amodels{
+    position: absolute;
+    top: 2630px;
+    left: 1365px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+.amodels:hover{
+    text-decoration: underline;
+}
+.buttons{
+    position: absolute;
+    top: 2750px;
+    left: 105px;
+}
+.buttact{
+    width: 110px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+.buttunact{
+    width: 110px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(34, 34, 34);
+    background: transparent;
+}
+.mac1{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 2840px;
+    left: 105px;
+    border-radius: 40px;
+    text-align: center;
+    transition: 0.3s;
+}
+.mac2{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 2840px;
+    left: 578.3px;
+    border-radius: 40px;
+    text-align: center;
+}
+.mac3{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 2840px;
+    left: 1051.6px;
+    border-radius: 40px;
+    text-align: center;
+}
+.macimg{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    transition: 0.3s;
+}
+.macimg:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.mactext{
+    color: rgb(34, 34, 34);
+    margin-top: 300px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.afford{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.learn{
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    margin-right: 80px;
+}
+.buy{
+    position: absolute;
+    top: 510px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+.buy:hover{
+    text-decoration: underline;
+}
+.mac4{
+    position: absolute;
+    height: 685.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 3500px;
+    left: 105px;
+    border-radius: 40px;
+    text-align: center;
+    transition: 0.3s;
+}
+.mac5{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 3500px;
+    left: 578.3px;
+    border-radius: 40px;
+    text-align: center;
+}
+.mac6{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 3500px;
+    left: 1051.6px;
+    border-radius: 40px;
+    text-align: center;
+}
+.macimg2{
+    position: absolute;
+    top: 50px;
+    left: 62px;
+    transition: 0.3s;
+}
+.macimg2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.macmini{
+    position: absolute;
+    top: 200px;
+    left: 62px;
+    transition: 0.3s;
+}
+.macmini:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.macmini2{
+    position: absolute;
+    top: 170px;
+    left: 62px;
+    transition: 0.3s;
+}
+.macmini2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.mactext2{
+    color: rgb(34, 34, 34);
+    margin-top: 375px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.afford2{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.learn2{
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    margin-right: 80px;
+}
+.buy2{
+    position: absolute;
+    top: 585px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+.buy2:hover{
+    text-decoration: underline;
+}
+.mac7{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 4160px;
+    left: 105px;
+    border-radius: 40px;
+    text-align: center;
+    transition: 0.3s;
+}
+.mac8{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 4160px;
+    left: 578.3px;
+    border-radius: 40px;
+    text-align: center;
+}
+.mac9{
+    position: absolute;
+    height: 625.05px;
+    width: 443.3px;
+    background: transparent;
+    top: 4160px;
+    left: 1051.6px;
+    border-radius: 40px;
+    text-align: center;
+}
+.mactext3{
+    color: rgb(34, 34, 34);
+    margin-top: 360px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.afford3{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.learn3{
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    margin-right: 80px;
+}
+.buy3{
+    position: absolute;
+    top: 555px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+.buy3:hover{
+    text-decoration: underline;
+}
+.bigbox1{
+    position: absolute;
+    top: 5000px;
+    left: 105px;
+    height: 720px;
+    width: 675px;
+    background: transparent;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    overflow: hidden;
+}
+.bigbox2{
+    position: absolute;
+    top: 5000px;
+    left: 800px;
+    height: 720px;
+    width: 675px;
+    background: transparent;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    overflow: hidden;
+}
+.essentials{
+    position: absolute;
+    color: rgb(34, 34, 34);
+    font-size: 70px;
+    font-family: "Roboto";
+    font-weight: 590;
+    letter-spacing: -2px;
+    left: 105px;
+    top: 4850px;
+}
+.access{
+    color: rgb(34, 34, 34);
+    font-weight: 500;
+    margin-top: 50px;
+}
+.imgaccess{
+    margin-top: 170px;
+}
+.imgdisplay{
+    margin-top: 170px;
+}
+.shop{
+    color: rgb(0, 119, 255);
+    text-decoration: none;
+}
+.shop:hover{
+    text-decoration: underline;
+}
+.footer{
+    position: absolute;
+    height: 500px;
+    width: 900px;
+    background: transparent;
+    top: 6000px;
+    left: 350px;
+}
+.row1{
+    position: absolute;
+    font-size: 13px;
+}
+.row2{
+    position: absolute;
+    left: 260px;
+    font-size: 13px;
+}
+.row3{
+    position: absolute;
+    left: 540px;
+    font-size: 13px;
+}
+.row4{
+    position: absolute;
+    left: 805px;
+    font-size: 13px;
+}
+.rowp{
+    font-weight: 590;
+}
+.rowa{
+    display: grid;
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+.rowa:hover{
+    text-decoration: underline;
+}
